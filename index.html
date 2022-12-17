@@ -23,94 +23,104 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <div>
-          <form>
-            <input
-              class="input-form"
-              type="text"
-              placeholder="City search..."
-              name="city-name"
-            />
-            <button class="button-form">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-search"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+        <div class="main">
+          <div class="row">
+            <div class="col">
+              <form>
+                <input
+                  class="input-form"
+                  type="text"
+                  placeholder="City search..."
+                  name="city-name"
                 />
-              </svg>
-            </button>
-          </form>
-        </div>
-        <div class="row cities">
-          <div class="col">Lisbon</div>
-          <div class="col">Paris</div>
-          <div class="col">London</div>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            <h1>Kyiv</h1>
-            <ul>
-              <li>Thursday 20:00</li>
-              <li>Sunny</li>
-            </ul>
+                <button class="button-form">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-search"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <div class="col">
+              <button class="button-current">Current location</button>
+            </div>
           </div>
-          <div class="col-6">
-            <div>
-              <h2>20</h2>
+          <div class="row cities">
+            <div class="col">Lisbon</div>
+            <div class="col">Paris</div>
+            <div class="col">London</div>
+          </div>
+
+          <div class="row">
+            <div class="col left-side">
+              <h1 class="city">Kyiv</h1>
+              <ul class="current-time">
+                <li>Thursday 20:00</li>
+                <li>Sunny</li>
+              </ul>
+            </div>
+            <div class="col right-side">
+              <div class="current-temperature">
+              <h2 class="temperature">20</h2>
               <span>°C|F</span>
-              <img src="img/hot_sun.svg" alt="" />
-            </div>
-            <ul>
-              <li>Precipitation: <span>20</span>%</li>
-              <li>Wind: <span>6</span>km/h</li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <div class="row">
-            <div class="col">21°</div>
-            <div class="col">20°</div>
-            <div class="col">15°</div>
-            <div class="col">5°</div>
-            <div class="col">22°</div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col">
-              <img src="img/cloud.svg" />
-            </div>
-            <div class="col">
-              <img src="img/cloud_sun_sunny.svg" />
-            </div>
-            <div class="col">
-              <img src="img/storm_heavy rain_thunderstorm_rain_cloud.svg" />
-            </div>
-            <div class="col">
-              <img src="img/cloud_cold_winter.svg" />
-            </div>
-            <div class="col">
-              <img src="img/rain_cloud.svg" />
+              <img src="img/hot_sun.svg" alt="" class="main-icon"/>
+              </div>
+              <ul>
+                <li>Precipitation: <span>20</span>%</li>
+                <li>Wind: <span>6</span>km/h</li>
+              </ul>
             </div>
           </div>
-          <div class="row">
-            <div class="col">Sun</div>
-            <div class="col">Mon</div>
-            <div class="col">Tue</div>
-            <div class="col">Wed</div>
-            <div class="col">Thu</div>
+          <div>
+            <div class="row">
+              <div class="col">21°</div>
+              <div class="col">20°</div>
+              <div class="col">15°</div>
+              <div class="col">5°</div>
+              <div class="col">22°</div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <img src="img/cloud.svg" />
+              </div>
+              <div class="col">
+                <img src="img/cloud_sun_sunny.svg" />
+              </div>
+              <div class="col">
+                <img src="img/storm_heavy rain_thunderstorm_rain_cloud.svg" />
+              </div>
+              <div class="col">
+                <img src="img/cloud_cold_winter.svg" />
+              </div>
+              <div class="col">
+                <img src="img/rain_cloud.svg" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">Sun</div>
+              <div class="col">Mon</div>
+              <div class="col">Tue</div>
+              <div class="col">Wed</div>
+              <div class="col">Thu</div>
+            </div>
           </div>
-        </div>
-        <span class="code-by"
-          ><a href="https://github.com/krystynamv/weather--app" target="_blank"
-            >Open-source code</a
+          <span class="code-by"
+            ><a
+              href="https://github.com/krystynamv/weather--app"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Krystyna Moiseieva</span
           >
-          by Krystyna Moiseieva</span
-        >
+        </div>
       </div>
     </div>
     <script src="search/script.js"></script>
