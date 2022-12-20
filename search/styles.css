@@ -1,3 +1,9 @@
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(97, 97, 97);
+  margin-bottom: 0;
+}
 ul {
   margin: 20px 0 20px 40px;
   padding: 0;
@@ -54,12 +60,6 @@ a {
   width: 43%;
   font-size: 14px;
   padding: 4px 8px;
-}
-.city {
-  font-weight: 400;
-  font-size: 40px;
-  color: rgb(97, 97, 97);
-  margin-bottom: 0;
 }
 .temperature {
   color: rgb(97, 97, 97);
