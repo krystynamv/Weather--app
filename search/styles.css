@@ -73,6 +73,10 @@ a {
   top: -30px;
   font-size: 16px;
 }
+.weather-temperature .active {
+  color: rgb(97, 97, 97);
+  cursor: default;
+}
 .temperature-icon {
   margin-left: 6px;
 }
