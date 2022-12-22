@@ -34,7 +34,7 @@ a {
   background-color: #eef6fc;
   border: solid 2px #c6e0f3;
   padding: 6px;
-  width: 220px;
+  width: 440px;
 }
 .button-form {
   padding: 6px;
@@ -45,27 +45,14 @@ a {
 .bi-search {
   color: rgb(64, 64, 233);
 }
-.button-current {
-  padding: 6px;
-  background-color: #afd6f5;
-  color: white;
-  border: solid 2px #94c9ee;
-}
-.button-current:hover {
-  background-color: white;
-  color: #afd6f5;
-}
-.cities {
-  color: #42a5f5;
-  width: 43%;
-  font-size: 14px;
-  padding: 4px 8px;
+.current-time {
+  padding-top: 20px;
 }
 .temperature {
   color: rgb(97, 97, 97);
   font-size: 60px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 100px;
 }
 .units {
   color: rgb(97, 97, 97);
