@@ -27,14 +27,15 @@
         <div class="weather-app">
           <div class="row">
             <div class="col">
-              <form>
+              <form id="search-form">
                 <input
                   class="input-form"
-                  type="text"
+                  type="search"
                   placeholder="City search..."
                   name="city-name"
+                  id="city-input"
                 />
-                <button class="button-form">
+                <button class="button-form" type="submit">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -78,8 +79,9 @@
                       ><span class="units">°C|<a href="#">F</a></span>
                     </div>
                     <img
-                      src="img/hot_sun.svg"
+                      src=""
                       alt="Clear"
+                      id="icon"
                       class="temperature-icon"
                     />
                   </div>
