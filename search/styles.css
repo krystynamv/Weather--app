@@ -1,3 +1,6 @@
+form {
+  text-align: center;
+}
 h1 {
   font-weight: 400;
   font-size: 40px;
@@ -28,7 +31,6 @@ a {
   border: 4px solid #dbeaf5;
   font-family: "Nunito", sans-serif;
   background-color: #f8fcff;
-  text-align: center;
 }
 .input-form {
   background-color: #eef6fc;
@@ -66,4 +68,19 @@ a {
 }
 .temperature-icon {
   margin-left: 6px;
+}
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.forecast-date {
+  color: rgb(97, 97, 97);
+  font-size: 16px;
+}
+.forecast-temp-max {
+  color: rgb(97, 97, 97);
+}
+.forecast-temp-min {
+  color: #42a5f5;
+  opacity: 0.7;
 }
