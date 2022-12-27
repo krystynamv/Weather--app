@@ -18,6 +18,7 @@ li {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -36,13 +37,21 @@ a {
   background-color: #eef6fc;
   border: solid 2px #c6e0f3;
   padding: 6px;
-  width: 440px;
+  width: 500px;
+  border-radius: 6px 0 0 6px;
+}
+.input-form:focus {
+  color: #212529;
+  background-color: #fcfeff;
+  border-color: #86b7fe;
+  outline: 0;
 }
 .button-form {
   padding: 6px;
   background-color: #afd6f5;
   border: solid 2px #94c9ee;
   margin: 0 0 0 -10px;
+  border-radius: 0 6px 6px 0;
 }
 .bi-search {
   color: rgb(64, 64, 233);
@@ -72,6 +81,7 @@ a {
 .forecast {
   margin-top: 20px;
   text-align: center;
+  
 }
 .forecast-date {
   color: rgb(97, 97, 97);
@@ -83,9 +93,9 @@ a {
 }
 .forecast-temp-min {
   color: #42a5f5;
-  opacity: 0.7;
+
   font-size: 16px;
 }
 .forecast-icon {
-  width: 60px;
+  width: 80px;
 }
