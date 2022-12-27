@@ -75,17 +75,17 @@ a {
 }
 .forecast-date {
   color: rgb(97, 97, 97);
-  font-size: 14px;
+  font-size: 16px;
 }
 .forecast-temp-max {
   color: rgb(97, 97, 97);
-  font-size: 14px;
+  font-size: 16px;
 }
 .forecast-temp-min {
   color: #42a5f5;
   opacity: 0.7;
-  font-size: 14px;
+  font-size: 16px;
 }
 .forecast-icon {
-  width: 46px;
+  width: 60px;
 }
