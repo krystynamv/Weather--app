@@ -1,5 +1,6 @@
 form {
   text-align: center;
+  width: 100%;
 }
 h1 {
   font-weight: 400;
@@ -37,7 +38,7 @@ a {
   background-color: #eef6fc;
   border: solid 2px #c6e0f3;
   padding: 6px;
-  width: 500px;
+  width: 90%;
   border-radius: 6px 0 0 6px;
 }
 .input-form:focus {
@@ -81,7 +82,6 @@ a {
 .forecast {
   margin-top: 20px;
   text-align: center;
-  
 }
 .forecast-date {
   color: rgb(97, 97, 97);
